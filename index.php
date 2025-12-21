@@ -160,7 +160,6 @@ class HackerNewsFeed
         } else {
             $url = "https://news.ycombinator.com/item?id={$id}";
         }
-        // $image_prompt = "" . $title . " showcased in a gritty noir comic book splash page. High contrast chiaroscuro lighting, heavy ink lines, dramatic angle. Full bleed, edge-to-edge artwork, masterpiece.";
         $image_prompt = sprintf(self::IMAGE_PROMPT_TEMPLATE, $title);
         $image = $this->generateNanoBananaImage($image_prompt, $id);
 
