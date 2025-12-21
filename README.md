@@ -2,6 +2,8 @@
 
 Top Hacker News stories for your [TRMNL](https://usetrmnl.com/) e-ink display.
 
+![img_UcO3HHHE](https://github.com/user-attachments/assets/f9aa15a3-7387-4435-b8be-45900bd40127)
+
 This PHP script fetches the top 5 stories from Hacker News, generates unique "gritty noir comic book" style illustrations for each headline using Google's Gemini (Nano Banana) API, and pushes the content to a TRMNL Custom Plugin.
 
 ## Features
