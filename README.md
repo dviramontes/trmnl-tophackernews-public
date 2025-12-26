@@ -62,3 +62,16 @@ To visualize the output in your browser without sending data to TRMNL, use the `
 To bypass the cache and force a fresh fetch of stories and images:
 
 `https://your-domain.com/index.php?update=true`
+
+## Go Version
+
+A Go implementation is also available in this repository. See `main.go` and the `Justfile` for usage:
+
+```bash
+just run
+
+# Just by itself for other commands
+just 
+```
+
+Set `GEMINI_API_KEY` environment variable before running.

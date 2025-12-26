@@ -1,0 +1,25 @@
+# Binaries
+hackernews-feed
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of go coverage
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Environment files
+.envrc
+.env
+.env.local
+
+# Cache and generated images
+cache/
+headline_images_nano_banana/

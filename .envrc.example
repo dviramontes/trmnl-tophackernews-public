@@ -1,0 +1,10 @@
+# Google Gemini API key for AI image generation
+# Get your key at: https://aistudio.google.com/apikey
+export GEMINI_API_KEY="your-gemini-api-key-here"
+
+# TRMNL webhook URL for publishing to device (optional - currently commented out)
+# Get this from your TRMNL device settings
+export TRMNL_WEBHOOK_URL="https://usetrmnl.com/api/custom_plugins/your-plugin-id"
+
+# Set to "true" to bypass cache and fetch fresh data
+export FORCE_UPDATE="false"
